@@ -52,17 +52,37 @@ fun ComposeQuadrantArrange() {
             modifier = Modifier.weight(1f)
         ) {
             // 제 2사분면
-            ComposeCard(bgColor = Color.Green, title = stringResource(R.string.title_1), body = stringResource(R.string.body_1), modifier = Modifier.weight(1f))    // modifier: 해당 Row 내에서 1f 비율의 영역 차지
+            ComposeCard(
+                bgColor = Color.Green,
+                title = stringResource(R.string.title_1),
+                body = stringResource(R.string.body_1),
+                modifier = Modifier.weight(1f)    // modifier: 해당 Row 내에서 1f 비율의 영역 차지
+            )
             // 제 1사분면
-            ComposeCard(Color.Yellow, stringResource(R.string.title_2), stringResource(R.string.body_2), modifier = Modifier.weight(1f))
+            ComposeCard(
+                bgColor = Color.Yellow,
+                title = stringResource(R.string.title_2),
+                body = stringResource(R.string.body_2),
+                modifier = Modifier.weight(1f)
+            )
         }
         Row(
             modifier = Modifier.weight(1f)
         ) {
             // 제 3사분면
-            ComposeCard(Color.Cyan, stringResource(R.string.title_3), stringResource(R.string.body_3), modifier = Modifier.weight(1f))
+            ComposeCard(
+                bgColor = Color.Cyan,
+                title = stringResource(R.string.title_3),
+                body = stringResource(R.string.body_3),
+                modifier = Modifier.weight(1f)
+            )
             // 제 4사분면
-            ComposeCard(Color.LightGray, stringResource(R.string.title_4), stringResource(R.string.body_4), modifier = Modifier.weight(1f))
+            ComposeCard(
+                bgColor = Color.LightGray,
+                title = stringResource(R.string.title_4),
+                body = stringResource(R.string.body_4),
+                modifier = Modifier.weight(1f)
+            )
         }
     }
 }
