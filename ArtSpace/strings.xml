@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ArtSpace</string>
+
+    <string name="title_1">Portrait of the Dancer Marietta di Rigardo</string>
+    <string name="title_2">Plakat</string>
+    <string name="title_3">Marker meisje</string>
+    <string name="artist_1">Max Slevogt(1904)</string>
+    <string name="artist_2">Karl Wiener(1929)</string>
+    <string name="artist_3">Willem Steelink Jr.(1886)</string>
+</resources>
